@@ -1,0 +1,75 @@
+.brand-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 140px;
+    height: 120px;
+}
+
+.brand-image {
+    width: 140px;
+    /* Adjust size as needed */
+    height: 120px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.brand-image:hover{
+    /* Keep aspect ratio */
+        animation: zoomInOut 1s infinite alternate;
+        /* Animation */
+    cursor: pointer;
+}
+
+.brand-name {
+    font-size: 14px;
+     font-weight: bold;
+     font-family: serif;
+}
+
+.brand-name:hover{
+    /* Adjust size as needed */
+        animation: zoomInOut 2s infinite alternate;
+        /* Animation */
+    color: rgb(81, 81, 240);
+}
+
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+/* Add these styles to your CSS file or style block */
+
+/* Add these styles to your CSS file or style block */
+
+.dropdown-menu {
+    opacity: 0;
+    animation: dropdownAnimation 0.5s forwards;
+    transform-origin: top;
+}
+
+.relative:hover .dropdown-menu {
+    animation: none;
+    opacity: 1;
+}
+
+@keyframes dropdownAnimation {
+    0% {
+        transform: scaleY(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scaleY(1);
+        opacity: 1;
+    }
+}

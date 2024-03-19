@@ -1,0 +1,6 @@
+/* CustomGallery.css */
+.custom-image-gallery .image-gallery-image {
+    height: 350px;
+    width: 450px;
+    /* Adjust the max-height as needed */
+}
