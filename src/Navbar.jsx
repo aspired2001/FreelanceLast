@@ -104,7 +104,7 @@ const Navbar = () => {
 
 
             {/* Mobile Navigation Icon */}
-            <div onClick={handleNav} className='block md:hidden pt-12'>
+            <div onClick={handleNav} className='block md:hidden pt-12 text-blue-700 '>
                 {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
             </div>
 
@@ -112,8 +112,8 @@ const Navbar = () => {
             <ul
                 className={
                     nav
-                        ? 'fixed md:hidden left-0 top-0 w-[50%] h-[430px] translate-y-28 translate-x-24 border-gray-900 bg-[#6788f5] ease-in-out duration-500 font-serif rounded-md'
-                        : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
+                        ? 'fixed md:hidden left-0 top-0 w-[60%] h-[430px] translate-y-28 translate-x-16 border-gray-900 bg-blue-700 ease-in-out duration-500 font-serif rounded-md'
+                        : 'ease-in-out w-[65%] duration-500 fixed top-0 bottom-0 left-[-100%]'
                 }
             >
                 {/* Mobile Logo */}
@@ -124,7 +124,7 @@ const Navbar = () => {
                     <li
                         key={item.id}
                         onClick={() => setNav(false)}
-                        className='p-4 border-b rounded-xl hover:bg-[#0c0c0c] duration-300 hover:text-white cursor-pointer border-gray-600'
+                        className='p-4 border-b rounded-xl hover:bg-[#0c0c0c] duration-300 hover:text-white cursor-pointer border-gray-600 font-semibold '
                     >
                         <Link to={item.link}>{item.text}</Link>
                     </li>
