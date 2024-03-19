@@ -52,24 +52,12 @@
 /* Add these styles to your CSS file or style block */
 
 .dropdown-menu {
-    opacity: 0;
-    animation: dropdownAnimation 0.5s forwards;
-    transform-origin: top;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
 }
 
-.relative:hover .dropdown-menu {
-    animation: none;
-    opacity: 1;
-}
-
-@keyframes dropdownAnimation {
-    0% {
-        transform: scaleY(0);
-        opacity: 0;
-    }
-
-    100% {
-        transform: scaleY(1);
-        opacity: 1;
-    }
+.dropdown-menu.open {
+    max-height: 500px;
+    /* Adjust the max-height as needed */
 }

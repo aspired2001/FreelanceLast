@@ -30,10 +30,10 @@ const CorporateProfile = () => {
                         />
                     </div>
 
-                    <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                    <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center ">
                         <div>
                             <img
-                                className="rounded shadow-xl hover:-translate-y-2 hover:transition-all cursor-pointer w-full max-w-[380px] mx-auto md:ml-auto md:mr-auto"
+                                className="rounded shadow-xl hover:-translate-y-2 hover:transition-all cursor-pointer w-full max-w-[380px] mx-auto md:ml-auto md:mr-auto "
                                 src="https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmljZXxlbnwwfHwwfHx8MA%3D%3D"
                                 alt="/food"
                             />

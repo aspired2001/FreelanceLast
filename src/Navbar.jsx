@@ -1,26 +1,22 @@
-import React ,  { useState, useRef } from 'react';
+import React, { useState, useRef } from 'react';
 import { Link } from 'react-router-dom';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai';
 import './stylesheets/Brands.css';
 
 const Navbar = () => {
-    const [aboutUsDropdown, setAboutUsDropdown] = useState(false);
+    const [isOpen, setIsOpen] = useState(false);
     const [productsDropdown, setProductsDropdown] = useState(false);
-    const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+    const [nav, setNav] = useState(false);
     const dropdownTimeoutRef = useRef(null);
 
-    const handleMouseEnterAboutUs = () => {
-        clearTimeout(dropdownTimeoutRef.current);
-        setAboutUsDropdown(true);
+    // Toggle function to handle the navbar's display
+    const handleNav = () => {
+        setNav(!nav);
     };
 
-    const handleMouseLeaveAboutUs = () => {
-        dropdownTimeoutRef.current = setTimeout(() => {
-            setAboutUsDropdown(false);
-        }, 60); // 1 second delay
+    const toggleMenu = () => {
+        setIsOpen(!isOpen);
     };
-
-
 
     const handleMouseEnterProducts = () => {
         clearTimeout(dropdownTimeoutRef.current);
@@ -33,50 +29,66 @@ const Navbar = () => {
         }, 60); // 1 second delay
     };
 
+
+    const navItems = [
+        { id: 1, text: 'HOME', link: '/' },
+        { id: 2, text: 'CORPORATE PROFILE', link: '/corporate-profile' },
+        { id: 3, text: 'OUR PRODUCTS', link: '/our-products' },
+        { id: 4, text: 'BOD', link: '/bod' },
+        { id: 5, text: 'GALLERY', link: '/gallery-page' },
+        { id: 5, text: 'CONTACT US', link: '/contact-us' },
+        { id: 5, text: 'CARREER', link: '/carreer' },
+    ];
+
     return (
-        <nav className="flex items-center justify-around h-[100px] w-full bg-white space-x-8 px-8 pb-14 border-b-2 text-lg whitespace-nowrap fixed z-[1000] top-0">
-            <div className="h-[95%] pt-[5px] md:pl-0 md:pr-5 pl-5 ">
+        <nav className="flex items-center justify-between h-[100px] w-full bg-white space-x-8 px-8 pb-14 border-b-2 text-lg whitespace-nowrap fixed z-[1000] top-0">
+            <div className="flex items-center">
                 <Link to="/" className="text-blue-700 font-serif font-semibold text-lg animate-navbar">
-                    <img src="assets/Logo.png" className="h-[85px] min-[300px]:-translate-x-24 min-[300px]:pl-4   " />
+                    <img src="assets/Logo.png" className="h-[85px] min-[300px]:-translate-x-8 min-[300px]:translate-y-8 min-[300px]:pl-2 min-[300px]:pb-2" alt="Logo" />
                 </Link>
             </div>
-
 
             <div className="hidden md:flex h-full pt-7 space-x-6 font-serif">
                 <Link to="/" className="nav-link hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">HOME</Link>
 
-                <div className="relative" onMouseEnter={handleMouseEnterAboutUs} onMouseLeave={handleMouseLeaveAboutUs}>
-                    <span className="nav-link cursor-pointer hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">ABOUT US</span>
-                    {aboutUsDropdown && (
-                        <div className="flex flex-col bg-white translate-y-14 -translate-x-24 absolute top-full h-[150px] w-[250px] space-y-5 rounded-xl items-center ">
-                            <Link to="/corporate-profile" className="nav-link hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50 pt-8">CORPORATE PROFILE</Link>
-                            <Link to="/bod" className="nav-link ml-4 hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50 pt-8">BOD</Link>
+                <div className="relative inline-block">
+                    <button
+                        type="button"
+                        className="inline-flex justify-center gap-x-1.5 rounded-md bg-white text-lg font-medium font-serif text-gray-900 hover:text-blue-700 hover:font-semibold border-none"
+                        id="menu-button"
+                        aria-expanded={isOpen}
+                        aria-haspopup="true"
+                        onClick={toggleMenu}
+                    >
+                        ABOUT US
+                    </button>
+                    {isOpen && (
+                        <div className="absolute top-full right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none space-y-2" role="menu" aria-orientation="vertical" aria-labelledby="menu-button" tabIndex="-1">
+                            <a href="/corporate-profile" className="font-serif hover:bg-blue-600 hover:text-white block px-4 py-2 text-lg" role="menuitem" tabIndex="-1">CORPORATE PROFILE</a>
+                            <a href="/bod" className="font-serif hover:bg-blue-600 hover:text-white block px-4 py-2 text-lg" role="menuitem" tabIndex="-1">BOD</a>
                         </div>
                     )}
                 </div>
 
-               
-
                 <div className="relative" onMouseEnter={handleMouseEnterProducts} onMouseLeave={handleMouseLeaveProducts}>
-                    <Link
-                    className="nav-link cursor-pointer hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">OUR BRANDS</Link>
+                    <Link className="nav-link cursor-pointer hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">OUR BRANDS</Link>
                     {productsDropdown && (
-                        <div className="absolute left-0 right-0 top-full bg-white border border-gray-200 z-[1000] w-[600px] -translate-x-48 translate-y-14 rounded-lg ">
+                        <div className="absolute top-full left-0 right-0 bg-white border border-gray-200 z-[1000] w-[600px] rounded-lg">
                             <div className="flex flex-row items-center justify-center h-[145px] space-x-20 px-14 pb-4 pt-8">
-                                <div className="brand-item ">
-                                    <img src="assets/lajawab.jpeg" alt="brand" className="brand-image" />
+                                <div className="brand-item">
+                                    <img src="assets/lajawab.jpeg" alt="Lajawab" className="brand-image" />
                                     <span className="brand-name">Lajawab</span>
                                 </div>
-                                <div className="brand-item ">
-                                    <img src="assets/Rajababu.webp" alt="Brand 2" className="brand-image" />
+                                <div className="brand-item">
+                                    <img src="assets/Rajababu.webp" alt="Raja Babu" className="brand-image" />
                                     <span className="brand-name">Raja Babu</span>
                                 </div>
-                                <div className="brand-item ">
-                                    <img src="assets/kakasteam.jpeg" alt="brand" className="brand-image" />
+                                <div className="brand-item">
+                                    <img src="assets/kakasteam.jpeg" alt="Kaka Steam" className="brand-image" />
                                     <span className="brand-name">Kaka Steam</span>
                                 </div>
-                                <div className="brand-item ">
-                                    <img src="assets/miniket.jpeg" alt="Brand 4" className="brand-image" />
+                                <div className="brand-item">
+                                    <img src="assets/miniket.jpeg" alt="Miniket" className="brand-image" />
                                     <span className="brand-name">Miniket</span>
                                 </div>
                             </div>
@@ -85,33 +97,40 @@ const Navbar = () => {
                 </div>
 
                 <Link to="/our-products" className="nav-link hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">OUR PRODUCTS</Link>
-
-
                 <Link to="/gallery-page" className="nav-link hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">GALLERY</Link>
-                <Link to="/carreer" className="nav-link hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">CARREER</Link>
+                <Link to="/carreer" className="nav-link hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">CAREER</Link>
                 <Link to="/contact-us" className="nav-link hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">CONTACT US</Link>
             </div>
 
-            <div className="md:hidden cursor-pointer pt-14 " onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
-                {mobileMenuOpen ? <FaTimes className="text-blue-700 text-xl " /> : <FaBars className="text-blue-700 text-xl " />}
+
+            {/* Mobile Navigation Icon */}
+            <div onClick={handleNav} className='block md:hidden pt-12'>
+                {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
             </div>
 
-            {mobileMenuOpen && (
-                <div className="md:hidden   inset-0 overflow-hidden z-50 ">
-                    <div className="flex justify-center items-center h-full">
-                        <div className="absolute top-[100px] left-0 w-full max-w-sm p-6 bg-white rounded-xl shadow-md translate-x-12 ">
-                            <div className="flex flex-col space-y-4">
-                                <Link to="/" className="mobile-nav-link">HOME</Link>
-                                <Link to="/corporate-profile" className="mobile-nav-link">CORPORATE PROFILE</Link>
-                                <Link to="/our-products" className="mobile-nav-link">OUR PRODUCTS</Link>
-                                <Link to="/bod" className="mobile-nav-link">BOD</Link>
-                                <Link to="/gallery-page" className="mobile-nav-link">GALLERY</Link>
-                                <Link to="/contact-us" className="mobile-nav-link">CONTACT US</Link>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            )}
+            {/* Mobile Navigation Menu */}
+            <ul
+                className={
+                    nav
+                        ? 'fixed md:hidden left-0 top-0 w-[50%] h-[430px] translate-y-28 translate-x-24 border-gray-900 bg-[#6788f5] ease-in-out duration-500 font-serif rounded-md'
+                        : 'ease-in-out w-[60%] duration-500 fixed top-0 bottom-0 left-[-100%]'
+                }
+            >
+                {/* Mobile Logo */}
+                
+
+                {/* Mobile Navigation Items */}
+                {navItems.map(item => (
+                    <li
+                        key={item.id}
+                        onClick={() => setNav(false)}
+                        className='p-4 border-b rounded-xl hover:bg-[#0c0c0c] duration-300 hover:text-white cursor-pointer border-gray-600'
+                    >
+                        <Link to={item.link}>{item.text}</Link>
+                    </li>
+                ))}
+            </ul>
+           
         </nav>
     );
 };
