@@ -62,7 +62,7 @@ const Products = ({ animate }) => {
         <div className={`transition-all duration-1000 pt-8 ${animate ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
         <div style={{ backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('assets/Rice.png')` }} className="bg-cover bg-center py-16 rounded-sm">
             <div className=' text-center mb-7 ' >
-                <span className='text-white text-[40px] font-bold font-serif '>Our Product</span>
+                <span className='text-white text-[40px] font-bold font-serif '>Our Brands</span>
             </div>
            
             <div className="container px-[60px] space-x-4  ">

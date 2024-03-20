@@ -25,10 +25,10 @@ const Home = () => {
     return (
         <div className="mt-[106px] overflow-hidden">
             <Gallery animate={animationComplete} />
-            <Products  animate={animationComplete} />
             <Welcome animate={animationComplete} />
-            <Customers animate={animationComplete} />
             <VedioSection animate={animationComplete} />
+            <Products  animate={animationComplete} />
+            <Customers animate={animationComplete} />
             <Infrastructure animate={animationComplete} />
             <Special animate={animationComplete} />
             <Footer animate={animationComplete} />

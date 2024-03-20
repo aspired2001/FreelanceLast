@@ -1,5 +1,6 @@
 
 import React from "react";
+import { Network } from 'lucide-react';
 
 import  { useState, useEffect } from 'react';
 
@@ -24,8 +25,10 @@ const Customers = () => {
             <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-[50px] px-[30px] ">
                 <div className="flex flex-col items-center  p-4 rounded">
 
-                    <div className="  w-[100px] h-[100px] bg-white rounded-full ">
-
+                    <div className="  w-[100px] h-[100px] bg-white rounded-full  ">
+                        <div className="translate-x-6 translate-y-6">
+                        <Network size={48} color="#000000" strokeWidth={2.75} />
+                        </div>
                     </div>
                     <span className="text-white text-center font-serif mt-2 text-lg pt-4" >We have a huge distribution channel for our wide range of products</span>
                 </div>

@@ -10,20 +10,26 @@ const OurProducts = () => {
 
     const images = [
         {
-            original: 'assets/kakasteam.jpeg',
-            thumbnail: 'assets/kakasteam.jpeg',
+            original: 'assets/Rajababu.webp',
+            thumbnail: 'assets/Rajababu.webp',
             originalAlt: 'Image 1',
             thumbnailAlt: 'Image 1 Thumbnail'
         },
         {
-            original: 'assets/kaka.jpeg',
-            thumbnail: 'assets/kaka.jpeg',
+            original: 'assets/lajawab.jpeg',
+            thumbnail: 'assets/lajawab.jpeg',
             originalAlt: 'Image 2',
             thumbnailAlt: 'Image 2 Thumbnail'
         },
         {
-            original: 'assets/steamkatarni.jpeg',
+            original: 'assets/banshkathi.jpeg',
             thumbnail: 'assets/Gal3.JPG',
+            originalAlt: 'Image 3',
+            thumbnailAlt: 'Image 3 Thumbnail'
+        },
+        {
+            original: 'assets/pr.jpeg',
+            thumbnail: 'assets/pr.jpeg',
             originalAlt: 'Image 3',
             thumbnailAlt: 'Image 3 Thumbnail'
         },
@@ -31,20 +37,20 @@ const OurProducts = () => {
     ];
     const image = [
         {
-            original: 'assets/kakasteam.jpeg',
-            thumbnail: 'assets/kakasteam.jpeg',
+            original: 'assets/sonachur.jpeg',
+            thumbnail: 'assets/sonachur.jpeg',
             originalAlt: 'Image 1',
             thumbnailAlt: 'Image 1 Thumbnail'
         },
         {
-            original: 'assets/kaka.jpeg',
-            thumbnail: 'assets/kaka.jpeg',
+            original: 'assets/steamkatarni.jpeg',
+            thumbnail: 'assets/steamkatarni.jpeg',
             originalAlt: 'Image 2',
             thumbnailAlt: 'Image 2 Thumbnail'
         },
         {
-            original: 'assets/steamkatarni.jpeg',
-            thumbnail: 'assets/Gal3.JPG',
+            original: 'assets/miniket.jpeg',
+            thumbnail: 'assets/miniket.JPG',
             originalAlt: 'Image 3',
             thumbnailAlt: 'Image 3 Thumbnail'
         },
@@ -52,20 +58,20 @@ const OurProducts = () => {
     ];
     const imagez = [
         {
-            original: 'assets/kakasteam.jpeg',
-            thumbnail: 'assets/kakasteam.jpeg',
+            original: 'assets/sonachur.jpeg',
+            thumbnail: 'assets/sonachur.jpeg',
             originalAlt: 'Image 1',
             thumbnailAlt: 'Image 1 Thumbnail'
         },
         {
-            original: 'assets/kaka.jpeg',
-            thumbnail: 'assets/kaka.jpeg',
-            originalAlt: 'Image 2',
-            thumbnailAlt: 'Image 2 Thumbnail'
+            original: 'assets/banshkathi.jpeg',
+            thumbnail: 'assets/Gal3.JPG',
+            originalAlt: 'Image 3',
+            thumbnailAlt: 'Image 3 Thumbnail'
         },
         {
-            original: 'assets/steamkatarni.jpeg',
-            thumbnail: 'assets/Gal3.JPG',
+            original: 'assets/babuji.jpeg',
+            thumbnail: 'assets/babuji.jpeg',
             originalAlt: 'Image 3',
             thumbnailAlt: 'Image 3 Thumbnail'
         },
@@ -73,11 +79,11 @@ const OurProducts = () => {
     ];
 
     return (
-        <div>
-            <div className="relative overflow-hidden">
+        <div className="">
+            <div className="relative overflow-hidden pt-24 ">
                 {/* Background image */}
                 <img
-                    src="https://images.unsplash.com/photo-1607349913338-fca6f7fc42d0?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Zm9vZCUyMHByb2R1Y3RzfGVufDB8fDB8fHww"
+                    src="https://media.istockphoto.com/id/1405363631/vector/rice-doodle-illustration-including-icons-bowl-japanese-food-chopsticks-squeeze-tear-bag-pan.jpg?s=612x612&w=0&k=20&c=ytFePHZPx6jzL8XLWpNYEOOkNvJ3QL18Wz4F0TvXZT8="
                     alt=""
                     className="w-full h-[400px] object-cover shadow-lg"
                 />

@@ -15,14 +15,14 @@ const Special = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-16 justify-around font-semibold text-blue-600">
                 <div className="text-center font-serif transition-transform transform hover:translate-y-2 hover:shadow-lg">
                     <div className="bg-white rounded-lg p-4">
-                        <span className="block mb-2">The Expert Professionals</span>
+                        <span className="block mb-2">The Best Milling Equipment</span>
                         <img
-                            src="assets/spec.png"
+                            src="assets/Satake.jpg"
                             alt="Infrastructure"
                             className="mx-auto w-full h-[80px] max-w-[300px] mb-8 mt-8"
                         />
                         <p className="text-center mt-16 text-[20px] font-medium font-serif text-blue-500">
-                            We use Buhler AG, the world’s leading flour milling equipment from cleaning to milling.
+                            We use Satake, the world’s leading flour milling equipment from cleaning to milling.
                         </p>
                     </div>
                 </div>
@@ -36,63 +36,64 @@ const Special = () => {
                             className="mx-auto w-full h-[90px] max-w-[300px] mb-8 mt-8"
                         />
                         <p className="text-center mt-16 text-[20px] font-medium font-serif text-blue-500">
-                            We use Buhler AG, the world’s leading flour milling equipment from cleaning to milling.
+                            Our team includes the expert professionals qualified from worlds’ best food technology institution.
                         </p>
                     </div>
                 </div>
 
                 <div className="text-center font-serif transition-transform transform hover:translate-y-2 hover:shadow-lg">
                     <div className="bg-white rounded-lg p-4">
-                        <span className="block mb-2">The Expert Professionals</span>
+                        <span className="block mb-2">Safe & Hygiene</span>
                         <img
                             src="assets/spec2.png"
                             alt="Infrastructure"
                             className="mx-auto w-full h-[90px] max-w-[300px] mb-8 mt-8"
                         />
                         <p className="text-center mt-16 text-[20px] font-medium font-serif text-blue-500">
-                            We use Buhler AG, the world’s leading flour milling equipment from cleaning to milling.
+                            We follows HACCP standards to ensures safe & hygiene through- out our process.
                         </p>
                     </div>
                 </div>
 
                 <div className="text-center font-serif transition-transform transform hover:translate-y-2 hover:shadow-lg">
                     <div className="bg-white rounded-lg p-4">
-                        <span className="block mb-2">The Expert Professionals</span>
+                        <span className="block mb-2">Zero Additives</span>
                         <img
                             src="assets/spec3.png"
                             alt="Infrastructure"
                             className="mx-auto w-full h-[90px] max-w-[300px] mb-8 mt-8"
                         />
                         <p className="text-center mt-16 text-[20px] font-medium font-serif text-blue-500">
-                            We use Buhler AG, the world’s leading flour milling equipment from cleaning to milling.
+                            We do not use any additives and can proudly says our products are zero additives to keep your health safety.
                         </p>
                     </div>
                 </div>
 
                 <div className="text-center font-serif transition-transform transform hover:translate-y-2 hover:shadow-lg">
                     <div className="bg-white rounded-lg p-4">
-                        <span className="block mb-2">The Expert Professionals</span>
+                        <span className="block mb-2">Quality</span>
                         <img
                             src="assets/spec4.png"
                             alt="Infrastructure"
                             className="mx-auto w-full h-[90px] max-w-[300px] mb-8 mt-8"
                         />
                         <p className="text-center mt-16 text-[20px] font-medium font-serif text-blue-500">
-                            We use Buhler AG, the world’s leading flour milling equipment from cleaning to milling.
+                            We plan in a way that our customers get consistent quality products with recent date of manufacturing to have more freshness.
+
                         </p>
                     </div>
                 </div>
 
                 <div className="text-center font-serif transition-transform transform hover:translate-y-2 hover:shadow-lg">
                     <div className="bg-white rounded-lg p-4">
-                        <span className="block mb-2">The Expert Professionals</span>
+                        <span className="block mb-2">Consistency & Freshness</span>
                         <img
-                            src="assets/spec5.png"
+                            src="assets/Roti.jpg"
                             alt="Infrastructure"
-                            className="mx-auto w-full h-[90px] max-w-[300px] mb-8 mt-8"
+                            className="mx-auto w-full h-[97px] max-w-[300px] mb-8 mt-8"
                         />
                         <p className="text-center mt-16 text-[20px] font-medium font-serif text-blue-500">
-                            We use Buhler AG, the world’s leading flour milling equipment from cleaning to milling.
+                            We plan in a way that our customers get consistent quality products with recent date of manufacturing to have more freshness.
                         </p>
                     </div>
                 </div>

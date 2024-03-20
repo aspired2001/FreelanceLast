@@ -12,12 +12,11 @@ const Welcome = ({animate}) => {
         <div className="container mx-auto px-16 mt-[70px]">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div className="flex flex-col justify-center">
-                    <h1 className="text-3xl md:text-3xl font-bold mb-4 text-blue-500 font-serif text-center ">
-                        Welcome to the Demo Agro
+                    <h1 className="text-5xl md:text-4xl font-bold mb-4 text-blue-700 font-serif text-center pb-8 ">
+                        Welcome to the Balaji Agro
                     </h1>
                     <p className="text-base md:text-lg leading-relaxed text-justify font-serif ">
-                        Our Company was incorporated as Sri Krishna Metcom Limited (Now
-                        Known as Baba Agro Food Limited), as a public limited company, under
+                        Our Company was incorporated as Balaji Agro Tech as a public limited company, under
                         the Companies Act, 1956 vide Certificate of Incorporation dated
                         July 31, 2008. Our Company is in the business of processing of
                         non-basmati and basmati rice in India.
