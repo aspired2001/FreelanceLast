@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 import PropTypes from 'prop-types';
 
@@ -29,12 +30,12 @@ const ProductCard = ({ product }) => {
             </div>
             <h2 className="text-xl text-white font-semibold mb-2 text-center">{product.name}</h2>
             <div className="flex mb-2">{renderStars(product.rating)}</div>
-            <a
-                href="/our-products" // Replace with your actual link
-                className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600 transition duration-300 font-serif"
+            <Link
+                to="/our-products" // Replace with your actual link
+                className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600  transition duration-300 font-serif"
             >
                 More Details
-            </a>
+            </Link>
         </div>
     );
 };
