@@ -17,7 +17,7 @@ const Special = () => {
                     <div className="bg-white rounded-lg p-4">
                         <span className="block mb-2">The Best Milling Equipment</span>
                         <img
-                            src="assets/Satake.jpg"
+                            src="assets/Satakes.jpg"
                             alt="Infrastructure"
                             className="mx-auto w-full h-[80px] max-w-[300px] mb-24 mt-8"
                         />
