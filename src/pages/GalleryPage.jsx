@@ -13,7 +13,7 @@ const images = [
     {
         original: 'assets/Gal2.JPG',
         thumbnail: 'assets/Gal2.JPG',
-        originalAlt: 'Image 2',
+        originalAlt: 'Image 2', 
         thumbnailAlt: 'Image 2 Thumbnail'
     },
     {

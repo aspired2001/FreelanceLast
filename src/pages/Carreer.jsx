@@ -34,7 +34,7 @@ const Carreer=()=>{
                     <h1 className="text-center mt-4 text-3xl font-serif font-bold text-blue-700">CARREERS</h1>
 
                     <div className="font-serif mt-8 mx-4 md:mx-8 lg:mx-12 xl:mx-16 2xl:mx-20">
-                        <img src="https://plus.unsplash.com/premium_photo-1661585679219-a2bb3c7a16dc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHRlc3RpbmclMjBMYWJ8ZW58MHx8MHx8fDA%3D "
+                        <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29ya3xlbnwwfHwwfHx8MA%3D%3D "
                             alt="Image"
                             className="rounded-2xl shadow-transpar w-full h-auto md:w-100 lg:w-104 xl:w-260 2xl:w-300"
                         />
