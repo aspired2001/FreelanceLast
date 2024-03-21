@@ -83,13 +83,13 @@ const OurProducts = () => {
             <div className="relative overflow-hidden pt-24 ">
                 {/* Background image */}
                 <img
-                    src="https://media.istockphoto.com/id/1405363631/vector/rice-doodle-illustration-including-icons-bowl-japanese-food-chopsticks-squeeze-tear-bag-pan.jpg?s=612x612&w=0&k=20&c=ytFePHZPx6jzL8XLWpNYEOOkNvJ3QL18Wz4F0TvXZT8="
+                    src="https://plus.unsplash.com/premium_photo-1664910706524-e783eed89e71?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmljZSUyMGZpZWxkfGVufDB8fDB8fHww"
                     alt=""
-                    className="w-full h-[400px] object-cover shadow-lg"
+                    className="w-full h-[400px] shadow-lg "
                 />
                 <div className="absolute inset-0 bg-black opacity-40 shadow-lg"></div>
                 {/* Overlay text */}
-                <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-[140px] text-white font-semibold text-xl bg-opacity-70 p-2 cursor-pointer font-serif whitespace-nowrap">
+                <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-[180px] text-white font-semibold text-xl bg-opacity-70 p-2 cursor-pointer font-serif whitespace-nowrap">
                     Home &middot; <span className="text-blue-500 hover:text-blue-300 whitespace-nowrap">Our Products</span>
                 </span>
             </div>

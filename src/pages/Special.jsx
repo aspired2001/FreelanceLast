@@ -19,7 +19,7 @@ const Special = () => {
                         <img
                             src="assets/Satake.jpg"
                             alt="Infrastructure"
-                            className="mx-auto w-full h-[80px] max-w-[300px] mb-8 mt-8"
+                            className="mx-auto w-full h-[80px] max-w-[300px] mb-24 mt-8"
                         />
                         <p className="text-center mt-16 text-[20px] font-medium font-serif text-blue-500">
                             We use Satake, the world’s leading flour milling equipment from cleaning to milling.

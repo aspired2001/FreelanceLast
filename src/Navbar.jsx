@@ -15,9 +15,22 @@ const Navbar = () => {
         setNav(!nav);
     };
 
-    const toggleMenu = () => {
-        setIsOpen(!isOpen);
+    // const toggleMenu = () => {
+    //     setIsOpen(!isOpen);
+    // };
+
+    const handleMouseEnterAboutUs = () => {
+        clearTimeout(dropdownTimeoutRef.current);
+        setIsOpen(true);
     };
+
+    const handleMouseLeaveAboutUs = () => {
+        dropdownTimeoutRef.current = setTimeout(() => {
+            setIsOpen(false);
+        }, 1200); // 1 second delay
+    };
+
+
 
     const handleMouseEnterProducts = () => {
         clearTimeout(dropdownTimeoutRef.current);
@@ -59,7 +72,9 @@ const Navbar = () => {
                         id="menu-button"
                         aria-expanded={isOpen}
                         aria-haspopup="true"
-                        onClick={toggleMenu}
+                        onMouseEnter={handleMouseEnterAboutUs}
+                        onMouseLeave={handleMouseLeaveAboutUs}
+                        
                     >
                         ABOUT US
                     </button>
