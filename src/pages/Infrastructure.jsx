@@ -9,7 +9,7 @@ const Infrastructure = () => {
             </div>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mt-16 justify-around font-semibold text-blue-600">
-                <div className="text-center font-serif transition-transform transform hover:translate-y-2 hover:shadow-lg">
+                <div className="text-center font-serif transition-transform transform hover:translate-y-2 hover:shadow-lg ">
                     <div className="bg-white rounded-lg p-4">
                         <img src="assets/infra.png" alt="Infrastructure" className="w-full h-auto mb-4" />
                         <div>
