@@ -9,7 +9,7 @@ const Welcome = ({animate}) => {
       
         <div className={`transition-all duration-1000 pt-4 ${animate ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
 
-        <div className="container mx-auto px-16 mt-[70px]">
+        <div className="container  px-4 mt-[70px]">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="flex flex-col justify-center px-2 sm:px-2 md:px-2 lg:px-8">
                         <h1 className="text-4xl md:text-3xl font-bold mb-4 text-blue-700 font-serif pb-4 sm:pb-6 lg:pb-8 text-center lg:-translate-x-12">
