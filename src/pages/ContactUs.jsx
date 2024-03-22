@@ -8,7 +8,7 @@ const ContactUs = () => {
          <div className="relative overflow-hidden">
             {/* Background image */}
             <img
-               src="https://images.unsplash.com/photo-1528747045269-390fe33c19f2?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGNvbnRhY3QlMjB1c3xlbnwwfHwwfHx8MA%3D%3D"
+               src="https://images.unsplash.com/photo-1587560699334-bea93391dcef?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29udGFjdCUyMHVzfGVufDB8fDB8fHww"
                alt=""
                className="w-full h-[400px] shadow-lg"
             />
