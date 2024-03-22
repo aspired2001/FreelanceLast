@@ -55,7 +55,7 @@ const Products = ({ animate }) => {
         { id: 2, name: 'LAJAWAB PREMIUM RICE', image: 'assets/lajawab.jpeg', rating: 3 },
         { id: 3, name: 'RAJABABU PREMIUM RICE', image: 'assets/Rajababu.webp', rating: 5 },
         { id: 4, name: 'MINIKET RICE', image: 'assets/miniket.jpeg', rating: 4 },
-        // Add more products as needed
+        
     ];
 
     return (

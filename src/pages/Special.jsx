@@ -90,7 +90,7 @@ const Special = () => {
                         <img
                             src="assets/Roti.jpg"
                             alt="Infrastructure"
-                            className="mx-auto w-full h-[97px] max-w-[300px] mb-8 mt-8"
+                            className="mx-auto w-full h-[125px] max-w-[270px] mb-8 mt-8"
                         />
                         <p className="text-center mt-16 text-[20px] font-medium font-serif text-blue-500">
                             We plan in a way that our customers get consistent quality products with recent date of manufacturing to have more freshness.
