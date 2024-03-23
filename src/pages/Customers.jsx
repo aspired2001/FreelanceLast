@@ -30,7 +30,7 @@ const Customers = () => {
                         <Network size={48} color="#000000" strokeWidth={2.75} />
                         </div>
                     </div>
-                    <span className="text-white text-center font-serif mt-2 text-lg pt-4" >We have a huge distribution channel for our wide range of products</span>
+                    <span className="text-white text-center font-serif mt-2 text-lg pt-4" >We have a huge distribution channel for our wide range of products.</span>
                 </div>
               
 
@@ -39,7 +39,7 @@ const Customers = () => {
                             <span className="text-black text-center font-serif font-semibold text-[20px]">{counter}+</span>
                         </div>
                         <span className="text-white text-center font-serif mt-2 text-lg pt-4">
-                            We have a huge distribution channel for our wide range of products
+                            We supply to over 100+ dealers/distributors/wholesalers/large retailers everyday.
                         </span>
                     </div>
                 <div className="flex flex-col items-center  p-4 rounded">
@@ -48,7 +48,7 @@ const Customers = () => {
                         font-semibold text-[20px]">{counter}+</span>
                     </div>
                     <span className="text-white text-center font-serif mt-2 text-lg pt-4">
-                        We have a huge distribution channel for our wide range of products
+                        We sale our products to more than 1000+ stores/shopping marts everyday. 
                     </span>
                 </div>
 

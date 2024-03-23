@@ -17,7 +17,7 @@ const CorporateProfile = () => {
                     <div className="px-6">
                         <h1 className="font-serif text-3xl font-semibold whitespace-nowrap text-blue-600">COMPANY PROFILE</h1>
                         <p className="text-[18px] text-justify font-serif pt-4">
-                            Our Company was incorporated as Demo agriculture Limited (Now Known as demo Agro Food Limited), as a public limited company, under the Companies Act, 1956 vide Certificate of Incorporation dated July 31, 2020. Our Company is in the business of processing of non-basmati and basmati rice in India.We are one of the largest processors of non-basmati rice in the State of Jharkhand with a milling capacity of 1500 Metric tons per day, and we market our products across Eastern Indian States namely Jharkhand, Bihar, Odisha, West Bengal, and Assam.
+                            Our Company was incorporated as Balaji Agrotech Industries. Our Company is in the business of processing of non-basmati and basmati rice in India.We are one of the largest processors of non-basmati rice in the State of Jharkhand with a milling capacity of 1000 Metric tons per day, and we market our products across Eastern Indian States namely Jharkhand, Bihar, Odisha, West Bengal, and Assam.
 
                         </p>
                     </div>
@@ -43,9 +43,9 @@ const CorporateProfile = () => {
 
                     <div>
                         <p className="text-[18px] text-justify font-serif pt-4 mr-8 pl-4">
-                            We process varieties of rice with the help of state of the art plant and machinery of International Standards i.e. Automatic Ultra Modern State of Art Buhler’s Swiss Technology Rice Mill. We serve to our consumers healthy, hygienic, tasty and nutrient rice.
+                            We process varieties of rice with the help of state of the art plant and machinery of International Standards i.e. Automatic Ultra Modern State of Satake Engineering technology in rice milling. We serve to our consumers healthy, hygienic, tasty and nutrient rice.
 
-                            Our Company has established an Ultra Modern Highly Automated Continuous Buhler’s Swiss Technology Paddy Processing & Rice Milling Plant with a installed capacity of 62 Tones per hour. We have established ourselves as one of the Industry Leader in a short span of time with a storage capacity of 85,000 Metric tons and milling capacity of 4,52,600 Metric tons per year.
+                            Our Company has established an Ultra Modern Highly Automated Continuous Satake Engineering Paddy Processing & Rice Milling Plant with a installed capacity of 62 Tones per hour. We have established ourselves as one of the Industry Leader in a short span of time with a storage capacity of 85,000 Metric tons and milling capacity of 4,52,600 Metric tons per year.
 
                         </p>
                     </div>
@@ -62,7 +62,7 @@ const CorporateProfile = () => {
 
                         <br />
                         <br />
-                        The Company’s management is in the industry of rice processing since 2007 and has become a pioneer in experimenting and developing the best qualities of rice.
+                        The Company’s management is in the industry of rice processing since 2010 and has become a pioneer in experimenting and developing the best qualities of rice.
 
                         <br />
                         <br />

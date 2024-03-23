@@ -13,23 +13,20 @@ const Welcome = ({animate}) => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="flex flex-col justify-center px-2 sm:px-2 md:px-2 lg:px-8">
                         <h1 className="text-4xl md:text-4xl font-bold mb-4 text-blue-700 font-serif pb-4 sm:pb-6 lg:pb-8 text-center lg:-translate-x-12">
-                            Welcome to Balaji Agro
+                            Welcome to Balaji Agrotech Industries
                         </h1>
 
                         <div className="w-full sm:w-[80%]"> {/* Adjust width percentage as needed */}
                             <p className="text-[18px] md:text-lg leading-relaxed text-justify font-serif">
-                                Our Company was incorporated as Balaji Agro Tech as a public limited company, under
-                                the Companies Act, 1956 vide Certificate of Incorporation dated
-                                July 31, 2008. Our Company is in the business of processing of
+                                Our Company was incorporated as Balaji Agrotech Industries in the year 2010. Our Company is in the business of processing of
                                 non-basmati and basmati rice in India.
                             </p>
                         </div>
                         <div className="mt-4 w-full sm:w-[80%]"> {/* Adjust width percentage as needed */}
                             <p className="text-[18px] md:text-lg leading-relaxed text-justify font-serif">
                                 We are one of the largest processors of non-basmati rice in the
-                                State of Jharkhand with a milling capacity of 1500 Metric tons per
-                                day, and we market our products across Eastern Indian States, namely
-                                Jharkhand, Bihar, Odisha, West Bengal, and Assam.
+                                State of Jharkhand with a milling capacity of 1000 Metric tons per day, and we market our products across Eastern Indian States, namely
+                                Jharkhand, Bihar, Odisha, West Bengal, Delhi, Rajasthan, few parts of Southern India and Assam.
                             </p>
                         </div>
                     </div>
