@@ -1,6 +1,7 @@
 import React from "react";
 import ContactForm from "./ContactForm";
 import Footer from "./Footer";
+import { FaInstagramSquare } from "react-icons/fa";
 
 const ContactUs = () => {
    return (
@@ -34,16 +35,19 @@ const ContactUs = () => {
                   <p className="text-md font-semibold text-gray-600 mt-2">Tikratol, Nagri, Ranchi 835303, Jharkhand, India</p>
                   <p className="text-md font-semibold text-gray-600 mt-2">Nagri, Bero, Ranchi, Jharkhand, India</p>
                   <p className="text-md font-semibold text-gray-600 mt-2 cursor-pointer hover:text-blue-700">
-                     Desk: <a href="tel:+918885416559">08885416559</a>
+                     Desk: <a href="tel:+919608086621">9608086621</a>
                   </p>
                   <p className="text-md font-semibold text-gray-600 mt-2 cursor-pointer hover:text-blue-700">
-                     Mill: <a href="tel:+916502507840">0650-2507840</a>
+                     Mill: <a href="tel:+919835078799">9835078799</a>
                   </p>
                   <p className="text-md font-semibold text-gray-600 mt-2 cursor-pointer hover:text-blue-700">
                      Order: <a href="mailto:sales@balajiagrotech.co.in">sales@balajiagrotech.co.in</a>
                   </p>
                   <p className="text-md font-semibold text-gray-600 mt-2 cursor-pointer hover:text-blue-700">
-                     Career: <a href="mailto:hr@balajiagrotech.co.in">hr@balajiagrotech.co.in</a>
+                     Career: <a href="mailto:hr@balajiagrotech.co.in">balajiagrotechindustries01@gmail.com</a>
+                  </p>
+                  <p>
+                      {/* <FaInstagramSquare size={ */}
                   </p>
                </div>
             </div>

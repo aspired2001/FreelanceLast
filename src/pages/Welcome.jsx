@@ -12,7 +12,7 @@ const Welcome = ({animate}) => {
         <div className="container  px-4 mt-[70px]">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="flex flex-col justify-center px-2 sm:px-2 md:px-2 lg:px-8">
-                        <h1 className="text-4xl md:text-4xl font-bold mb-4 text-blue-700 font-serif pb-4 sm:pb-6 lg:pb-8 text-center lg:-translate-x-12">
+                        <h1 className="text-4xl md:text-4xl font-bold mb-4 text-blue-700 font-serif pb-4 sm:pb-2 lg:pb-8 text-center lg:-translate-x-12">
                             Welcome to Balaji Agrotech Industries
                         </h1>
 

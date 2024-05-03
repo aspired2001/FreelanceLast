@@ -1,46 +1,42 @@
 import React from "react";
 
- const Team = () => {
+const Team = () => {
   return (
-    <div className=" mx-20 px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
-      <div className="grid gap-16 mx-auto sm:grid-cols-2 lg:grid-cols-4 lg:max-w-screen-lg">
-        <div className="flex flex-col items-center bg-slate-200 rounded-lg shadow-xl py-[16px] hover:transition-all ease-in-out hover:-translate-y-2 cursor-pointer">
-          <img
-            className="object-cover w-24 h-24 rounded-full shadow"
-            src="assets/profile.PNG"
-            alt="Person"
-          />
-          <div className="flex flex-col justify-center mt-2 font-serif items-center">
-            <p className="text-lg font-bold text-blue-700 text-center">Mr. Rameshwar Prasad Sahu</p>
-            <p className="mb-4  text-gray-800">Owner</p>
-
-          </div>
+    <div className="grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+      <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img
+          className="w-full h-64 object-cover"
+          src="assets/profile.PNG"
+          alt="Person"
+        />
+        <div className="p-6">
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">Mr. Rameshwar Prasad Sahu</h2>
+          <p className="text-sm text-gray-600">Ownership: Owner</p>
         </div>
-        <div className="flex flex-col items-center bg-slate-200 rounded-lg shadow-xl py-[16px] hover:transition-all ease-in-out hover:-translate-y-2 cursor-pointer">
-          <img
-            className="object-cover w-24 h-24 rounded-full shadow"
-            src="assets/profile1.jpeg"
-          />
-          <div className="flex flex-col justify-center mt-2 font-serif items-center ">
-            <p className="text-lg font-bold text-blue-600 text-center">Mr. Santosh Kumar Sahu</p>
-            <p className="mb-4  text-gray-700">Owner</p>
+      </div>
 
-          </div>
+      <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img
+          className="w-full h-64 object-cover"
+          src="assets/profile1.jpeg"
+          alt="Person"
+        />
+        <div className="p-6">
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">Mr. Santosh Kumar Sahu</h2>
+          <p className="text-sm text-gray-600">Ownership: Owner</p>
         </div>
-        <div className="flex flex-col items-center bg-slate-200 rounded-lg shadow-xl py-[16px] hover:transition-all ease-in-out hover:-translate-y-2 cursor-pointer">
-          <img
-            className="object-cover w-24 h-24 rounded-full shadow"
-            src="assets/profile2.PNG.jpeg"
-          />
-          <div className="flex flex-col justify-center mt-2 font-serif items-center ">
-            <p className="text-lg font-bold text-blue-600 text-center">Mr. Shambhu Sahu</p>
-            <p className="mb-4  text-gray-700">Owner</p>
+      </div>
 
-          </div>
+      <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+        <img
+          className="w-full h-64 object-cover"
+          src="assets/profile2.PNG.jpeg"
+          alt="Person"
+        />
+        <div className="p-6">
+          <h2 className="text-xl font-semibold text-gray-800 mb-2">Mr. Shambhu Sahu</h2>
+          <p className="text-sm text-gray-600">Ownership: Owner</p>
         </div>
-        
-       
-
       </div>
     </div>
   );

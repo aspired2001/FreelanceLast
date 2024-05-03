@@ -2,7 +2,6 @@ import React from "react";
 import Footer from "./Footer";
 import Team from "./Team";
 
-
 const BOD = () => {
     return (
         <div>
@@ -20,14 +19,15 @@ const BOD = () => {
                 </span>
             </div>
 
-            <div className="mt-8">
-                <Team/>
+            <div className="mt-8 max-w-screen-lg">
+                <Team />
             </div>
 
-         <div className="mt-8">
-            <Footer/>
-         </div>
+            <div className="mt-8">
+                <Footer />
+            </div>
         </div>
     );
 }
-export default BOD
+
+export default BOD;

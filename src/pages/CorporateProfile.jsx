@@ -105,7 +105,7 @@ const CorporateProfile = () => {
                     <h1 className="text-blue-600 font-serif font-semibold text-2xl ml-[14px]">Vision :</h1>
                     <p className="text-[18px] text-justify font-serif pt-4 mr-8 pl-4">
 
-                        Our Vision is to achieve the highest level of quality in Fresh produce by combining natures best with advance technical knowhow. The idea is to create Baba Brand par excellence in the Food Industry.
+                        Our Vision is to achieve the highest level of quality in Fresh produce by combining natures best with advance technical knowhow. The idea is to create Our excellence in the Food Industry.
 
                         We will meet everyday needs for nutrition, hygiene with brands that help people feel good and get more out of life. Sustainability is at the heart of our business and through our brands, we seek to inspire people to take small actions everyday that can add up to a big difference for the world.
 
