@@ -18,9 +18,9 @@ const Customers = () => {
 
     return (
         <div className="flex flex-col lg:h-[500px] pb-3 pr-2 mt-8  items-center bg-[#1e3a8a] rounded-sm " >
-            <h1 className="text-white text-center  text-4xl font-serif font-bold pt-4 " >Customers & Networks</h1>
+            <h1 className="text-white text-center  text-4xl max-sm:text-2xl font-serif font-bold pt-4 " >Customers & Networks</h1>
             <div className="mt-4">
-                <h2 className="text-white  text-2xl font-serif font-bold">distribution Network</h2>
+                <h2 className="text-white max-sm:text-xl text-2xl font-serif font-bold">distribution Network</h2>
             </div>
             <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-[50px] px-[30px] ">
                 <div className="flex flex-col items-center  p-4 rounded">
@@ -30,7 +30,7 @@ const Customers = () => {
                         <Network size={48} color="#000000" strokeWidth={2.75} />
                         </div>
                     </div>
-                    <span className="text-white text-center font-serif mt-2 text-lg pt-4" >We have a huge distribution channel for our wide range of products.</span>
+                    <span className="text-white max-sm:text-[16px] text-center font-serif mt-2 text-lg pt-4" >We have a huge distribution channel for our wide range of products.</span>
                 </div>
               
 
@@ -38,7 +38,7 @@ const Customers = () => {
                     <div className="w-[100px] h-[100px] bg-white rounded-full flex items-center justify-center">
                             <span className="text-black text-center font-serif font-semibold text-[20px]">{counter}+</span>
                         </div>
-                        <span className="text-white text-center font-serif mt-2 text-lg pt-4">
+                    <span className="text-white max-sm:text-[16px] text-center font-serif mt-2 text-lg pt-4">
                             We supply to over 100+ dealers/distributors/wholesalers/large retailers everyday.
                         </span>
                     </div>
@@ -47,7 +47,7 @@ const Customers = () => {
                         <span className="text-black text-center font-serif
                         font-semibold text-[20px]">{counter}+</span>
                     </div>
-                    <span className="text-white text-center font-serif mt-2 text-lg pt-4">
+                    <span className="text-white max-sm:text-[16px] text-center font-serif mt-2 text-lg pt-4">
                         We sale our products to more than 1000+ stores/shopping marts everyday. 
                     </span>
                 </div>

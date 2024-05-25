@@ -55,10 +55,10 @@ const Navbar = () => {
     ];
 
     return (
-        <nav className="flex items-center justify-between h-[100px] w-full bg-white space-x-8 px-8 pb-14 border-b-2 text-lg whitespace-nowrap fixed z-[1000] top-0">
+        <nav className=" flex items-center justify-between h-[100px] w-full bg-white space-x-8 px-8 pb-14 border-b-2 text-lg whitespace-nowrap fixed z-[1000] top-0">
             <div className="flex items-center">
                 <Link to="/" className="text-blue-700 font-serif font-semibold text-lg animate-navbar">
-                    <img src="assets/Logo.png" className="h-[85px] min-[300px]:-translate-x-8 min-[300px]:translate-y-8 min-[300px]:pl-2 min-[300px]:pb-2" alt="Logo" />
+                    <img src="assets/Logo.png" className="h-[85px] mt-14 min-[300px]:-translate-x-8  min-[300px]:pl-2 min-[300px]:pb-2" alt="Logo" />
                 </Link>
             </div>
 
@@ -86,31 +86,7 @@ const Navbar = () => {
                     )}
                 </div>
 
-                <div className="relative" onMouseEnter={handleMouseEnterProducts} onMouseLeave={handleMouseLeaveProducts}>
-                    <Link className="nav-link cursor-pointer hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">OUR BRANDS</Link>
-                    {productsDropdown && (
-                        <div className="absolute top-full left-0 right-0 bg-white border border-gray-200 z-[1000] w-[600px] rounded-lg translate-y-14">
-                            <div className="flex flex-row items-center justify-center h-[145px] space-x-20 px-14 pb-4 pt-8">
-                                <div className="brand-item">
-                                    <img src="assets/lajawab.jpeg" alt="Lajawab" className="brand-image" />
-                                    <span className="brand-name">Lajawab</span>
-                                </div>
-                                <div className="brand-item">
-                                    <img src="assets/Rajababu.webp" alt="Raja Babu" className="brand-image" />
-                                    <span className="brand-name">Raja Babu</span>
-                                </div>
-                                <div className="brand-item">
-                                    <img src="assets/kakasteam.jpeg" alt="Kaka Steam" className="brand-image" />
-                                    <span className="brand-name">Kaka Steam</span>
-                                </div>
-                                <div className="brand-item">
-                                    <img src="assets/miniket.jpeg" alt="Miniket" className="brand-image" />
-                                    <span className="brand-name">Miniket</span>
-                                </div>
-                            </div>
-                        </div>
-                    )}
-                </div>
+                
 
                 <Link to="/our-products" className="nav-link hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">OUR PRODUCTS</Link>
                 <Link to="/gallery-page" className="nav-link hover:text-blue-800 hover:font-semibold hover:transition-all hover:ease-in-out hover:delay-50">GALLERY</Link>

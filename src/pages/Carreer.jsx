@@ -17,7 +17,7 @@ const Carreer=()=>{
 
                 {/* Overlay text */}
                 <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-[140px] text-white font-semibold text-xl bg-opacity-70 p-2 cursor-pointer font-serif  whitespace-nowrap">
-                    Home &middot; <span className="text-blue-500 hover:text-blue-300 whitespace-nowrap ">Carreer</span>
+                    Home &middot; <span className=" text-blue-500 hover:text-blue-300 whitespace-nowrap ">Carreer</span>
                 </span>
             </div>
 
@@ -25,7 +25,7 @@ const Carreer=()=>{
           
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-9 pt-20">
                 <div className="bg-slate-300 shadow-inner rounded-xl pb-8">
-                    <h1 className="text-3xl font-serif font-semibold text-center pt-4 text-blue-700">CONTACT US</h1>
+                    <h1 className="max-sm:text-2xl text-3xl font-serif font-semibold text-center pt-4 text-blue-700">CONTACT US</h1>
                     <ContactCarreer />
                 </div>
 

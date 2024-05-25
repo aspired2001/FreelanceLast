@@ -1,4 +1,5 @@
 import React from "react";
+import { DefaultGallery } from "./StaticGal";
 import Footer from "./Footer";
 import ImageGallery from 'react-image-gallery';
 import 'react-image-gallery/styles/css/image-gallery.css';
@@ -115,7 +116,7 @@ const GalleryPage = () => {
                     items={images}
                     lazyLoad={true}
                     showBullets={true}
-                    showThumbnails={true}
+                    showThumbnails={false}
                     showNav={false} // Remove side buttons
                     showPlayButton={false}
                     showFullscreenButton={false}
@@ -123,6 +124,10 @@ const GalleryPage = () => {
                     slideInterval={1500}
                     slideDuration={550}
                 />
+            </div>
+
+            <div className="mt-14 max-sm:px-4 max-md:px-8 lg:px-20">
+                <DefaultGallery/>
             </div>
            
            

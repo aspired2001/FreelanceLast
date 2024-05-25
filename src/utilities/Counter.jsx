@@ -23,7 +23,9 @@ const Counter = ({ n }) => {
         return () => clearInterval(interval);
     }, [count, n]);
 
-    return <div>{count}</div>;
+    return <div
+        className="max-sm:text-2xl text-3xl"
+    >{count}</div>;
 };
 
 Counter.propTypes = {

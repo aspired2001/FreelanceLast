@@ -16,7 +16,7 @@ const ContactUs = () => {
 
             {/* Overlay text */}
             <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-[140px] text-white font-semibold text-xl bg-opacity-70 p-2 cursor-pointer font-serif whitespace-nowrap">
-               Home &middot; <span className="text-blue-500 hover:text-blue-300 whitespace-nowrap">Contact Us</span>
+               Home &middot; <span className="max-sm:text-2xl text-blue-500 hover:text-blue-300 whitespace-nowrap">Contact Us</span>
             </span>
          </div>
 
@@ -31,17 +31,17 @@ const ContactUs = () => {
                <h1 className="text-center mt-4 text-3xl font-serif font-bold text-blue-700">ADDRESS</h1>
 
                <div className="font-serif mt-8 ml-8">
-                  <p className="text-lg font-semibold text-gray-700">Balaji Agro Tech Industries</p>
-                  <p className="text-md font-semibold text-gray-600 mt-2">Tikratol, Nagri, Ranchi 835303, Jharkhand, India</p>
-                  <p className="text-md font-semibold text-gray-600 mt-2">Nagri, Bero, Ranchi, Jharkhand, India</p>
+                  <p className="text-lg font-semibold text-gray-700">Balaji AgroTech Industries</p>
+                  <p className="text-md font-semibold text-gray-600 mt-2">Tikratoli, Nagri, Ranchi 835303, Jharkhand, India</p>
+                  <p className="text-md font-semibold text-gray-600 mt-2">Nagri, Ranchi, Jharkhand, India</p>
                   <p className="text-md font-semibold text-gray-600 mt-2 cursor-pointer hover:text-blue-700">
-                     Desk: <a href="tel:+919608086621">9608086621</a>
+                     Mill: <a href="tel:+919608086621">9608086621</a>
                   </p>
                   <p className="text-md font-semibold text-gray-600 mt-2 cursor-pointer hover:text-blue-700">
-                     Mill: <a href="tel:+919835078799">9835078799</a>
+                     Desk: <a href="tel:+919835078799">9835078799</a>
                   </p>
                   <p className="text-md font-semibold text-gray-600 mt-2 cursor-pointer hover:text-blue-700">
-                     Order: <a href="mailto:sales@balajiagrotech.co.in">sales@balajiagrotech.co.in</a>
+                     Order: <a href="mailto:sales@balajiagrotech.co.in">balajiagrotechindustries01@gmail.com</a>
                   </p>
                   <p className="text-md font-semibold text-gray-600 mt-2 cursor-pointer hover:text-blue-700">
                      Career: <a href="mailto:hr@balajiagrotech.co.in">balajiagrotechindustries01@gmail.com</a>

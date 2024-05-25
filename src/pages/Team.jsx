@@ -5,7 +5,7 @@ const Team = () => {
     <div className="grid gap-8 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <img
-          className="w-full h-64 object-cover"
+          className="w-full h-[14rem] object-fit bg-cover"
           src="assets/profile.PNG"
           alt="Person"
         />
@@ -17,7 +17,7 @@ const Team = () => {
 
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <img
-          className="w-full h-64 object-cover"
+          className="w-full h-[14rem] object-fit bg-cover"
           src="assets/profile1.jpeg"
           alt="Person"
         />
@@ -29,7 +29,7 @@ const Team = () => {
 
       <div className="bg-white shadow-lg rounded-lg overflow-hidden">
         <img
-          className="w-full h-64 object-cover"
+          className="w-full h-[14rem] object-fit bg-cover"
           src="assets/profile2.PNG.jpeg"
           alt="Person"
         />

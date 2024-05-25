@@ -54,13 +54,13 @@ const Footer = () => {
                         <h2 className="mb-6 text-sm font-semibold uppercase dark:text-white">CONTACTS</h2>
                          
                         <p className="text-md  text-gray-400 mt-2 cursor-pointer hover:text-white">
-                            Desk: <a href="tel:+918885416559">08885416559</a>
+                            Desk: <a href="tel:+918885416559">9608086621</a>
                         </p>
                         <p className="text-md  text-gray-400 mt-2 cursor-pointer hover:text-white">
-                            Mill: <a href="tel:+916502507840">0650-2507840</a>
+                            Mill: <a href="tel:+916502507840">9835078799</a>
                         </p>
                         <p className="text-md  text-gray-400 mt-2 cursor-pointer hover:text-white">
-                            Order: <a href="mailto:sales@balajiagrotech.co.in">sales@balajiagrotech.co.in</a>
+                            Order: <a href="mailto:sales@balajiagrotech.co.in">balajiagrotechindustries01@gmail.com</a>
                         </p>
                     </div>
 

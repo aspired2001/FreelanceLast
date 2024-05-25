@@ -5,7 +5,7 @@ import Team from "./Team";
 const BOD = () => {
     return (
         <div>
-            <div className="relative overflow-hidden">
+            <div className="relative ">
                 {/* Background image */}
                 <img
                     src="https://images.unsplash.com/photo-1561504935-4e7d4516a2d1?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHJpY2V8ZW58MHx8MHx8fDA%3D"
@@ -19,7 +19,7 @@ const BOD = () => {
                 </span>
             </div>
 
-            <div className="mt-8 max-w-screen-lg">
+            <div className=" mx-auto mt-8 max-w-[75%]">
                 <Team />
             </div>
 

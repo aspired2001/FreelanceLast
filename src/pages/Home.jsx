@@ -23,11 +23,11 @@ const Home = () => {
     }, []);
 
     return (
-        <div className="mt-[106px] overflow-hidden">
+        <div className="mt-[100px] overflow-hidden">
             <Gallery animate={animationComplete} />
             <Welcome animate={animationComplete} />
             <VedioSection animate={animationComplete} />
-            <Products  animate={animationComplete} />
+            
             <Customers animate={animationComplete} />
             <Infrastructure animate={animationComplete} />
             <Special animate={animationComplete} />
