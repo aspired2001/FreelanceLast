@@ -2,6 +2,7 @@ import React from "react";
 import ContactForm from "./ContactForm";
 import Footer from "./Footer";
 import { FaInstagramSquare } from "react-icons/fa";
+import MapComponent from "./MapComponent";
 
 const ContactUs = () => {
    return (
@@ -54,8 +55,8 @@ const ContactUs = () => {
 
          </div>
 
-         <div className="mt-16 w-[100vw] px-[40px] items-center">
-            <img src="assets/map.png" className="rounded-[10px] hover:-translate-y-2 ease-in-out duration-100 delay-100 cursor-pointer" alt="Map" />
+         <div className="">
+            <MapComponent/>
          </div>
 
          <div className="mt-[60px] w-[100%]">

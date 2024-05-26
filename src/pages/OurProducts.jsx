@@ -1,147 +1,115 @@
-import React from "react";
-import Footer from './Footer'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Footer from './Footer';
 
-import useCustomGallery from '../CustomHooks/useCustomGallery';
-
-
-
-
-const OurProducts = () => {
-
-    const images = [
-        {
-            original: 'assets/Rajababu.webp',
-            thumbnail: 'assets/Rajababu.webp',
-            originalAlt: 'Image 1',
-            thumbnailAlt: 'Image 1 Thumbnail'
-        },
-        {
-            original: 'assets/lajawab.jpeg',
-            thumbnail: 'assets/lajawab.jpeg',
-            originalAlt: 'Image 2',
-            thumbnailAlt: 'Image 2 Thumbnail'
-        },
-        {
-            original: 'assets/banshkathi.jpeg',
-            thumbnail: 'assets/Gal3.JPG',
-            originalAlt: 'Image 3',
-            thumbnailAlt: 'Image 3 Thumbnail'
-        },
-        {
-            original: 'assets/pr.jpeg',
-            thumbnail: 'assets/pr.jpeg',
-            originalAlt: 'Image 3',
-            thumbnailAlt: 'Image 3 Thumbnail'
-        },
-        
-    ];
-    const image = [
-        {
-            original: 'assets/sonachur.jpeg',
-            thumbnail: 'assets/sonachur.jpeg',
-            originalAlt: 'Image 1',
-            thumbnailAlt: 'Image 1 Thumbnail'
-        },
-        {
-            original: 'assets/steamkatarni.jpeg',
-            thumbnail: 'assets/steamkatarni.jpeg',
-            originalAlt: 'Image 2',
-            thumbnailAlt: 'Image 2 Thumbnail'
-        },
-        {
-            original: 'assets/miniket.jpeg',
-            thumbnail: 'assets/miniket.JPG',
-            originalAlt: 'Image 3',
-            thumbnailAlt: 'Image 3 Thumbnail'
-        },
-        
-    ];
-    const imagez = [
-        {
-            original: 'assets/sonachur.jpeg',
-            thumbnail: 'assets/sonachur.jpeg',
-            originalAlt: 'Image 1',
-            thumbnailAlt: 'Image 1 Thumbnail'
-        },
-        {
-            original: 'assets/banshkathi.jpeg',
-            thumbnail: 'assets/Gal3.JPG',
-            originalAlt: 'Image 3',
-            thumbnailAlt: 'Image 3 Thumbnail'
-        },
-        {
-            original: 'assets/babuji.jpeg',
-            thumbnail: 'assets/babuji.jpeg',
-            originalAlt: 'Image 3',
-            thumbnailAlt: 'Image 3 Thumbnail'
-        },
-        
-    ];
-
-    return (
-        <div className="">
-            <div className="relative overflow-hidden pt-24 ">
-                {/* Background image */}
-                <img
-                    src="https://plus.unsplash.com/premium_photo-1664910706524-e783eed89e71?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cmljZSUyMGZpZWxkfGVufDB8fDB8fHww"
-                    alt=""
-                    className="w-full h-[400px] shadow-lg "
-                />
-                <div className="absolute inset-0 bg-black opacity-40 shadow-lg"></div>
-                {/* Overlay text */}
-                <span className="absolute top-1/2 left-1/2 transform -translate-x-1/2 translate-y-[180px] text-white font-semibold text-xl bg-opacity-70 p-2 cursor-pointer font-serif whitespace-nowrap">
-                    Home &middot; <span className="text-blue-500 hover:text-blue-300 whitespace-nowrap">Our Products</span>
-                </span>
-            </div>
-
-            <div className="container mx-auto px-4 py-8">
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <div className="swiper-container pt-8">
-                           
-                                {useCustomGallery('5xl', '3xl', images)} 
-                    </div>
-                    <div className="translate-y-12">
-                        <h1 className="text-3xl font-bold mb-4 font-serif text-blue-700">Parboiled rice</h1>
-                        <p className="text-[20px] text-gray-800 font-serif text-justify ">
-                            Processing of rice begins with picking the best-quality paddy from the highly maintained fields of Chattisgarh and Jharkhand, numerous quality checks, washing, and filtration ensure the cleanest rice before stoneless grinding. The unmatched taste of these grains will help you cherish the special moments in life. Every pack of our Product goes through quality standardisation. They are cleaned with hygiene as priority consideration. The packaging of these rice products is emphasised to ensure they stay fresh with the aroma locked in them safely until you unleash it. The taste,  softness, sweet aroma, and fluffiness makes it special. Raja Babu, Lajawab, Babuji and Pavitra Rishta rice are the top products in the Parboiled Rice category that has  high fiber content. We pack and supply in various pack sizes viz., 1 kg, 5 kg, 10 kg, 25 kg, 50 kg.
-                        </p>
-                    </div>
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-16 lg:space-x-32">
-                    <div className="translate-y-12">
-                        <h1 className="text-3xl font-bold mb-4 font-serif text-blue-700">Steam Rice</h1>
-                        <p className=" text-gray-800 font-serif text-justify text-[20px]  ">
-                            Processing of rice begins with picking the best-quality paddy from the highly maintained fields of Chattisgarh and Jharkhand, numerous quality checks, washing, and filtration ensure the cleanest rice before stoneless grinding. The unmatched taste of these grains will help you cherish the special moments in life. Every pack of our Product goes through quality standardisation. They are cleaned with hygiene as priority consideration. The packaging of these rice products is emphasised to ensure they stay fresh with the aroma locked in them safely until you unleash it. The taste,  softness, sweet aroma, and fluffiness makes it special. Kaka(Sonam, Miniket, Katarni) rice are the top products in the Steam Rice category that has  high fiber content. We pack and supply in various pack sizes viz., 1 kg, 5 kg, 10 kg, 25 kg, 50 kg.
-                        </p>
-                    </div>
-                    
-                    <div className="swiper-container translate-y-16 translate-x-4">
-                        {useCustomGallery('5xl', '3xl', image)} 
-                    </div>
-
-                </div>
-
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-16 ">
-                    <div className="swiper-container pt-12 pl-4">
-                        {useCustomGallery('5xl', '3xl', imagez)} 
-                    </div>
-                    <div className="translate-y-12">
-                        <h1 className="text-3xl font-bold mb-4 font-serif text-blue-700">Special Rice</h1>
-                        <p className="text-[20px]  text-gray-800 font-serif text-justify ">
-                            Processing of rice begins with picking the best-quality paddy from the highly maintained fields of Chattisgarh and Jharkhand, numerous quality checks, washing, and filtration ensure the cleanest rice before stoneless grinding. The unmatched taste of these grains will help you cherish the special moments in life. Every pack of our Product goes through quality standardisation. They are cleaned with hygiene as priority consideration. The packaging of these rice products is emphasised to ensure they stay fresh with the aroma locked in them safely until you unleash it. The taste,  softness, sweet aroma, and fluffiness makes it special. Sonachur, Banshkathi, BPT rice are the top products in the Special Rice category that has  high fiber content. We pack and supply in various pack sizes viz., 1 kg, 5 kg, 10 kg, 25 kg, 50 kg.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div className="mt-16">
-               <Footer/>
+const ProductCard = ({ bgColor, imageSrc, name }) => (
+    <div className={` w-[18rem] h-[25rem] flex-shrink-0 m-6 relative overflow-hidden ${bgColor} rounded-lg max-w-xs shadow-lg group`}>
+        <svg
+            className="absolute bottom-0 left-0 mb-8 scale-150 group-hover:scale-[1.65] transition-transform"
+            viewBox="0 0 375 283"
+            fill="none"
+            style={{ opacity: 0.1 }}
+        >
+            <rect
+                x="159.52"
+                y="175"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 159.52 175)"
+                fill="white"
+            />
+            <rect
+                y="107.48"
+                width="152"
+                height="152"
+                rx="8"
+                transform="rotate(-45 0 107.48)"
+                fill="white"
+            />
+        </svg>
+        <div className="relative pt-10 px-10 flex items-center justify-center group-hover:scale-110 transition-transform">
+            <div
+                className="block absolute w-48 h-48 bottom-0 left-0 -mb-24 ml-3"
+                style={{
+                    background: 'radial-gradient(black, transparent 60%)',
+                    transform: 'rotate3d(0, 0, 1, 20deg) scale3d(1, 0.6, 1)',
+                    opacity: 0.2,
+                }}
+            ></div>
+            <img className="relative w-[14rem] h-[18rem]" src={imageSrc} alt={name} />
+        </div>
+        <div className="relative text-white px-6 pb-6 mt-6">
+            <div className="flex justify-center items-center">
+                <span className="block font-serif text-xl ">{name}</span>
             </div>
         </div>
-    );
-}
+    </div>
+);
+
+ProductCard.propTypes = {
+    bgColor: PropTypes.string.isRequired,
+    imageSrc: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired,
+};
+
+const OurProducts = () => (
+    <div className='pt-40'>
+        <h1 className='text-blue-500 font-semibold text-center text-2xl  md:text-xl lg:text-2xl xl:text-[2rem] font-serif'>Our Products</h1>
+        <div className="pt-10 flex flex-wrap items-center justify-center">
+
+            <ProductCard
+                bgColor="bg-blue-800"
+                imageSrc="assets/image.png"
+                name="Raja Babu"
+            />
+            <ProductCard
+                bgColor="bg-teal-500"
+                imageSrc="assets/image1.png"
+                name="Miniket"
+            />
+            <ProductCard
+                bgColor="bg-orange-500"
+                imageSrc="assets/image2.png"
+                name="Kaka Basmati"
+            />
+            <ProductCard
+                bgColor="bg-orange-500"
+                imageSrc="assets/image3.png"
+                name="Steam Sonam"
+            />
+            <ProductCard
+                bgColor="bg-orange-500"
+                imageSrc="assets/image4.png"
+                name="Sella Katarni"
+            />
+            <ProductCard
+                bgColor="bg-orange-500"
+                imageSrc="assets/image5.png"
+                name="Special Sonachur"
+            />
+            <ProductCard
+                bgColor="bg-orange-500"
+                imageSrc="assets/image6.png"
+                name="Special Jeerakati"
+            />
+            <ProductCard
+                bgColor="bg-orange-500"
+                imageSrc="assets/image7.png"
+                name="Special Steam Katarni"
+            />
+            <ProductCard
+                bgColor="bg-orange-500"
+                imageSrc="assets/image8.png"
+                name="Lajawab Special Rice"
+            />
+        </div>
+
+        <div>
+            <Footer />
+        </div>
+
+    </div>
+);
 
 export default OurProducts;

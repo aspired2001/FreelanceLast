@@ -158,21 +158,24 @@ const ContactForm = () => {
                     {errors.message && <p className="text-red-500 text-sm">{errors.message}</p>}
                 </div>
 
-                <button
-                    type="submit"
-                    className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600"
-                >
-                    Submit
-                </button>
+                <div className="flex justify-between">
+                    <button
+                        type="submit"
+                        className="h-12 bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600"
+                    >
+                        Submit
+                    </button>
 
-                <FloatingWhatsApp
-                    phoneNumber="+9179999 48433" // Replace with your WhatsApp number
-                    accountName="Aniket Sahu" // Name displayed in the WhatsApp widget
-                    avatar="https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?w=200&t=st=1711183713~exp=1711184313~hmac=f5998c6076f418241d46b28d7c63f3d035f0551c73ff3030cbf586864a1f10bd" // URL of the avatar image
-                    chatMessage="Hello, How can I Help you ?" // Predefined message
-                    allowClickAway={true}
-                />
+                    <div className=" cursor-pointer">
+                        <a href="https://wa.me/917999948433?text=Hello how can I help you ?" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/What.jpeg" width={60} alt="WhatsApp Contact" />
+                        </a>
+                    </div>
+                </div>
+                
             </form>
+
+            
         </div>
     );
 };

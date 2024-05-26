@@ -20,10 +20,10 @@ const VideoPlayer = () => {
 
 
     return (
-        <div className="relative h-full flex items-center justify-center ">
+        <div className="relative h-[33rem]  flex items-center justify-center ">
             <ReactPlayer
                 ref={playerRef}
-                url="https://player.vimeo.com/progressive_redirect/playback/392930074/rendition/360p/file.mp4?loc=external&oauth2_token_id=1747418641&signature=1a9d981e90f90dbd0976937a414c0382c1c4a2db9ab7268dc45e2535989942e1" // Replace with your video URL
+                url="assets/BalajiReel.mp4" // Replace with your video URL
                 width="100%"
                 height="100%"
                 playing={playing}

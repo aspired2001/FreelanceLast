@@ -173,20 +173,20 @@ const ContactCareer = () => {
                     {errors.message && <p className="text-red-500 text-sm">{errors.message}</p>}
                 </div>
 
-                <button
-                    type="submit"
-                    className="bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600"
-                >
-                    Submit
-                </button>
+                <div className="flex justify-between">
+                    <button
+                        type="submit"
+                        className="h-12 bg-blue-500 text-white py-2 px-4 rounded-md hover:bg-blue-600"
+                    >
+                        Submit
+                    </button>
 
-                <FloatingWhatsApp
-                    phoneNumber="+919820908809" // Replace with your WhatsApp number
-                    accountName="Ritika" // Name displayed in the WhatsApp widget
-                    avatar="https://example.com/avatar.jpg" // URL of the avatar image
-                    chatMessage="Hello, How can I Help you ?" // Predefined message
-                    allowClickAway={true}
-                />
+                    <div className=" cursor-pointer">
+                        <a href="https://wa.me/917999948433?text=Hello how can I help you ?" target="_blank" rel="noopener noreferrer">
+                            <img src="assets/What.jpeg" width={60} alt="WhatsApp Contact" />
+                        </a>
+                    </div>
+                </div>
             </form>
         </div>
     );

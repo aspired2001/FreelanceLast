@@ -32,16 +32,6 @@ const Navbar = () => {
 
 
 
-    const handleMouseEnterProducts = () => {
-        clearTimeout(dropdownTimeoutRef.current);
-        setProductsDropdown(true);
-    };
-
-    const handleMouseLeaveProducts = () => {
-        dropdownTimeoutRef.current = setTimeout(() => {
-            setProductsDropdown(false);
-        }, 60); // 1 second delay
-    };
 
 
     const navItems = [
