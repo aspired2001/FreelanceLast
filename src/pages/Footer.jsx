@@ -9,16 +9,16 @@ const Footer = () => {
                     {/* Company */}
                     <div>
                         <h2 className="mb-6 text-[16px] font-semibold text-gray-900 uppercase dark:text-white whitespace-nowrap ">Balaji Agro Tech.</h2>
-                         
-                         <img src="/assets/Logo.png"
-                                className="w-[100px] h-[100px] ml-[7px]"
-                         />
+
+                        <img src="/assets/Logo.png"
+                            className="w-[100px] h-[100px] ml-[7px]"
+                        />
 
                     </div>
                     {/* Logo */}
                     <div>
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">COMPANY</h2>
-                        <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                        <ul className="text-gray-500 dark:text-gray-300 font-medium">
                             <li className="mb-4">
                                 <a href="/bod" className="hover:underline">About</a>
                             </li>
@@ -35,7 +35,7 @@ const Footer = () => {
                     {/* Help Center */}
                     <div>
                         <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
-                        <ul className="text-gray-500 dark:text-gray-400 font-medium">
+                        <ul className="text-gray-300 dark:text-gray-300 font-medium">
 
                             <li className="mb-4">
                                 <a href="#" className="hover:underline">Instagram</a>
@@ -52,23 +52,23 @@ const Footer = () => {
                     {/* Legal */}
                     <div>
                         <h2 className="mb-6 text-sm font-semibold uppercase dark:text-white">CONTACTS</h2>
-                         
-                        <p className="text-md  text-gray-400 mt-2 cursor-pointer hover:text-white">
+
+                        <p className="text-md  text-gray-300 mt-2 cursor-pointer hover:text-white">
                             Desk: <a href="tel:+918885416559">9608086621</a>
                         </p>
-                        <p className="text-md  text-gray-400 mt-2 cursor-pointer hover:text-white">
+                        <p className="text-md  text-gray-300 mt-2 cursor-pointer hover:text-white">
                             Mill: <a href="tel:+916502507840">9835078799</a>
                         </p>
-                        <p className="text-md  text-gray-400 mt-2 cursor-pointer hover:text-white">
+                        <p className="text-md text-gray-300 mt-2 cursor-pointer hover:text-white break-words">
                             Order: <a href="mailto:sales@balajiagrotech.co.in">balajiagrotechindustries01@gmail.com</a>
                         </p>
                     </div>
 
 
-               
+
                 </div>
             </div>
-            
+
         </footer>
     );
 };

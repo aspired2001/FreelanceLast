@@ -19,13 +19,13 @@ const Welcome = ({animate}) => {
                         </h1>
                         
                         <div className="w-full sm:w-[80%] md:w-[100%]"> {/* Adjust width percentage as needed */}
-                            <p className=" max-sm:text-[16px] text-[18px] md:text-lg leading-relaxed text-justify font-serif">
+                            <p className=" max-sm:text-[16px] text-[18px] max-sm:px-4 md:text-lg leading-relaxed text-justify font-serif">
                                 Our Company was incorporated as Balaji Agrotech Industries in the year 2010. Our Company is in the business of processing of
                                 non-basmati and basmati rice in India.
                             </p>
                         </div>
                         <div className="mt-2 w-full sm:w-[80%] md:w-[100%]"> {/* Adjust width percentage as needed */}
-                            <p className=" max-sm:text-[16px]  text-[18px] md:text-lg leading-relaxed text-justify font-serif ">
+                            <p className=" max-sm:text-[16px]  text-[18px] md:text-lg leading-relaxed text-justify font-serif max-sm:px-4">
                                 We are one of the largest processors of non-basmati rice in the
                                 State of Jharkhand with a milling capacity of 1000 Metric tons per day, and we market our products across Eastern Indian States, namely
                                 Jharkhand, Bihar, Odisha, West Bengal, Delhi, Rajasthan, few parts of Southern India and Assam.
@@ -33,7 +33,7 @@ const Welcome = ({animate}) => {
                         </div>
                     </div>
                     <div className="relative mx-auto overflow-hidden w-full md:max-w-md lg:max-w-lg xl:max-w-xl my-8">
-                        <div className="relative z-10 overflow-hidden rounded-[18px] p-[2px] mt-[8px] w-full">
+                        <div className="relative z-10 overflow-hidden rounded-[18px] p-[2px] mt-[8px] w-full max-sm:px-4">
                             <img
                                 src="https://images.pexels.com/photos/3345727/pexels-photo-3345727.jpeg?auto=compress&cs=tinysrgb&w=600"
                                 alt="Placeholder"

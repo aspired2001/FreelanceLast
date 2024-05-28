@@ -24,7 +24,7 @@ const Counter = ({ n }) => {
     }, [count, n]);
 
     return <div
-        className="max-sm:text-2xl text-3xl"
+        className="max-sm:text-2xl text-2xl"
     >{count}</div>;
 };
 

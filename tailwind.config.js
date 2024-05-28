@@ -31,7 +31,7 @@ export default {
         '80': '-80%',
       },
       screens:{
-         
+         'custom':"1368px"
       }
 
     },

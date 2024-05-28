@@ -94,7 +94,7 @@ const Navbar = () => {
             <ul
                 className={
                     nav
-                        ? 'fixed md:hidden left-0 top-0 w-[60%] h-[430px] translate-y-28 translate-x-16 border-gray-900 bg-gray-300 ease-in-out duration-500 font-serif rounded-md'
+                        ? 'fixed md:hidden left-0 top-0 w-[90%] h-[430px] translate-y-[6.3rem] -translate-x-4 md:translate-x-4 border-gray-900 bg-gray-300 ease-in-out duration-500 font-serif rounded-md'
                         : 'ease-in-out w-[65%] duration-500 fixed top-0 bottom-0 left-[-100%]'
                 }
             >
