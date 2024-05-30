@@ -5,13 +5,13 @@ const Footer = () => {
         <footer className=" relative bg-white dark:bg-blue-700 mt-8">
 
             <div className="mx-auto w-full max-w-screen-xl">
-                <div className="grid grid-cols-2 gap-8 px-4 py-6 lg:py-8 md:grid-cols-4 font-serif">
+                <div className="grid grid-cols-2 gap-12 px-4 py-6 lg:py-8 md:grid-cols-4 font-serif">
                     {/* Company */}
                     <div>
                         <h2 className="mb-6 text-[16px] font-semibold text-gray-900 uppercase dark:text-white whitespace-nowrap ">Balaji Agro Tech.</h2>
 
                         <img src="/assets/Logo.png"
-                            className="w-[100px] h-[100px] ml-[7px]"
+                            className=" max-sm:w-[80px] max-sm:h-[80px] w-[100px] h-[100px] ml-[7px]"
                         />
 
                     </div>

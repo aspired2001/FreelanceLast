@@ -111,8 +111,9 @@ const GalleryPage = () => {
             </div>
 
 
-            <div className="max-w-6xl mx-auto mt-8">
+            <div className="max-w-6xl mx-auto mt-8 ">
                 <ImageGallery
+                
                     items={images}
                     lazyLoad={true}
                     showBullets={true}

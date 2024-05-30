@@ -13,7 +13,7 @@ const Special = () => {
                 </span>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-16 custom:px-28 font-semibold text-blue-600">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-16 custom:px-36 font-semibold text-blue-600">
                 <div className="text-center font-serif transition-transform transform hover:translate-y-2 hover:shadow-lg">
                     <div className="bg-white rounded-lg p-4">
                         <span className="block mb-2">The Best Milling Equipment</span>
