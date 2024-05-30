@@ -12,7 +12,7 @@ const CorporateProfile = () => {
             </div>
 
 
-            <div className="mt-16">
+            <div className="mt-16 lg:px-14">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
                     <div className="px-6">
                         <h1 className="font-serif text-3xl max-sm:text-2xl max-sm:text-center font-semibold whitespace-nowrap text-blue-600">COMPANY PROFILE</h1>
@@ -22,18 +22,18 @@ const CorporateProfile = () => {
                         </p>
                     </div>
 
-                    <div className="w-full h-full pr-4 max-sm:px-4 ml-[5px] md:ml-[50px]">
+                    <div className="w-full h-full pr-4 max-sm:px-4  ">
                         <img
-                            className="rounded shadow-xl hover:-translate-y-2 hover:transition-all cursor-pointer w-full max-w-[400px] mx-auto md:ml md:mr-auto"
+                            className="rounded shadow-xl hover:-translate-y-2 hover:transition-all cursor-pointer max-w-[400px]  md:ml md:mr-auto"
                             src="https://images.unsplash.com/photo-1596560548464-f010549b84d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHJpY2V8ZW58MHx8MHx8fDA%3D"
                             alt="/rice"
                         />
                     </div>
 
-                    <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-8 items-center ">
+                    <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap- items-center ">
                         <div>
                             <img
-                                className="max-sm:px-4 rounded shadow-xl hover:-translate-y-2 hover:transition-all cursor-pointer w-full max-w-[380px] mx-auto md:ml-auto md:mr-auto "
+                                className="max-sm:px-4 rounded shadow-xl hover:-translate-y-2 hover:transition-all cursor-pointer max-w-[460px] mx-auto md:ml-auto md:mr-auto lg:ml-4 "
                                 src="https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cmljZXxlbnwwfHwwfHx8MA%3D%3D"
                                 alt="/food"
                             />
@@ -113,13 +113,13 @@ const CorporateProfile = () => {
                 </div>
             </div>
 
-            <div className="mt-8">
+            <div className="mt-8 lg:px-14">
                 <h1 className="  text-blue-600 font-serif font-semibold text-2xl ml-[14px]">Mission :</h1>
                 <p className="max-sm:text-[16px] text-[18px] text-justify font-serif pt-4 mr-8 pl-4">
                     Our Mission is to lead the industry as the Premier manufacturer and marketer of branded quality of food products. We consistently strive to exceed our customer’s expectation through commitment to quality produce and sustainable growing practices.
                 </p>
             </div>
-            <div className="mt-8">
+            <div className="mt-8 lg:px-14">
                 <h1 className="  text-blue-600 font-serif font-semibold text-2xl ml-[14px]">The Aim :</h1>
                 <p className="max-sm:text-[16px] text-[18px] text-justify font-serif pt-4 mr-8 pl-4">
                     Our focus is to better understand the changing food habits and anticipate consumer needs in order to provide Taste, Nutrition, Health and Wellness through its product offerings.

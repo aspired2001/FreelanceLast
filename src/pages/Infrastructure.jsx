@@ -36,7 +36,7 @@ const cardData = [
 
 const Infrastructure = () => {
     return (
-        <div className="flex flex-col items-center justify-around mt-8">
+        <div className="flex flex-col items-center justify-around mt-14">
             <div className="text-center font-serif text-blue-700 ">
                 <h1 className="text-2xl md:text-2xl lg:text-2xl xl:text-3xl font-bold">Infrastructure</h1>
             </div>

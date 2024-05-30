@@ -9,7 +9,7 @@ const Welcome = ({animate}) => {
       
         <div className={`transition-all duration-1000 pt-4 ${animate ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-10'}`}>
 
-        <div className="  container mx-auto mt-14">
+        <div className="  container mx-auto ">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4 ">
                     <div className=" flex flex-col justify-center px-2 sm:px-2 md:px-2 lg:px-8">
                         <h1 className="text-2xl  md:text-xl lg:text-2xl xl:text-[2rem] font-bold mb-4 text-blue-700 font-serif pb-4 sm:pb-2 lg:ml-14 lg:pb-8 text-center lg:-translate-x-12">
@@ -37,7 +37,7 @@ const Welcome = ({animate}) => {
                             <img
                                 src="https://images.pexels.com/photos/3345727/pexels-photo-3345727.jpeg?auto=compress&cs=tinysrgb&w=600"
                                 alt="Placeholder"
-                                className="w-full h-[380px] object-cover object-center transform scale-100 transition-transform duration-300 hover:scale-105"
+                                className="w-full h-[340px] object-cover object-center transform scale-100 transition-transform duration-300 hover:scale-105"
                             />
                         </div>
                     </div>

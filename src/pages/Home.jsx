@@ -5,9 +5,9 @@ import Customers from "./Customers";
 import Footer from "./Footer";
 import Gallery from "./Gallery";
 import Infrastructure from "./Infrastructure";
-import Products from "./Products";
+// import Products from "./Products";
 import Special from "./Special";
-import VedioSection from "./VedioSection";
+// import VedioSection from "./VedioSection";
 import Welcome from "./Welcome";
 
 const Home = () => {
@@ -26,7 +26,7 @@ const Home = () => {
         <div className="mt-[100px] overflow-hidden">
             <Gallery animate={animationComplete} />
             <Welcome animate={animationComplete} />
-            <VedioSection animate={animationComplete} />
+         
             
             <Customers animate={animationComplete} />
             <Infrastructure animate={animationComplete} />

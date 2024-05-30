@@ -4,8 +4,8 @@ import React from "react";
 const Special = () => {
     return (
         <div>
-            <div className="flex flex-col items-center mt-8 px-4">
-                <h1 className="font-serif text-center text-blue-700 text-2xl md:text-2xl lg:text-2xl xl:text-3xl font-bold">
+            <div className="flex flex-col items-center mt-14 px-4">
+                <h1 className="font-serif text-center text-blue-700 text-2xl md:text-2xl lg:text-2xl xl:text-3xl  font-bold">
                     WHAT MAKES US SPECIAL?
                 </h1>
                 <span className="font-serif text-blue-600 text-[17px] text-center mt-3">

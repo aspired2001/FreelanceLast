@@ -17,12 +17,12 @@ const Customers = () => {
 
 
     return (
-        <div className="flex flex-col lg:h-[500px] pb-3 pr-2 mt-8  items-center bg-[#1e3a8a] rounded-sm " >
-            <h1 className="text-white text-center  text-4xl max-sm:text-2xl font-serif font-bold pt-4 " >Customers & Networks</h1>
+        <div className="flex flex-col  lg:h-[360px] pb-3 pr-2 mt-14  items-center bg-[#1e3a8a] rounded-sm " >
+            <h1 className="text-white text-center  text-2xl md:text-2xl lg:text-2xl xl:text-3xl  font-serif font-bold pt-4 " >Customers & Networks</h1>
             <div className="mt-4">
                 <h2 className="text-white max-sm:text-xl text-2xl font-serif font-bold">distribution Network</h2>
             </div>
-            <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-[50px] px-[30px] ">
+            <section className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8 px-[30px] ">
                 <div className="flex flex-col items-center  p-4 rounded">
 
                     <div className="  w-[100px] h-[100px] bg-white rounded-full  ">
