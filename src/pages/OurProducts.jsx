@@ -74,17 +74,17 @@ const OurProducts = () => (
                 name="Kaka Basmati"
             />
             <ProductCard
-                bgColor="bg-orange-500"
+                bgColor="bg-yellow-500"
                 imageSrc="assets/image3.png"
                 name="Steam Sonam"
             />
             <ProductCard
-                bgColor="bg-orange-500"
+                bgColor="bg-blue-800"
                 imageSrc="assets/image4.png"
                 name="Sella Katarni"
             />
             <ProductCard
-                bgColor="bg-orange-500"
+                bgColor="bg-teal-500"
                 imageSrc="assets/image5.png"
                 name="Special Sonachur"
             />
@@ -94,7 +94,7 @@ const OurProducts = () => (
                 name="Special Jeerakati"
             />
             <ProductCard
-                bgColor="bg-orange-500"
+                bgColor="bg-yellow-500"
                 imageSrc="assets/image7.png"
                 name="Special Steam Katarni"
             />

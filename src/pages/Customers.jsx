@@ -6,10 +6,19 @@ import  { useState, useEffect } from 'react';
 
 const Customers = () => {
     const [counter, setCounter] = useState(0);
+    const [count,setCount]=useState(0);
 
     useEffect(() => {
         const interval = setInterval(() => {
             setCounter((prevCounter) => (prevCounter < 100 ? prevCounter + 1 : prevCounter));
+        }, 50); // Adjust the interval as needed
+
+        return () => clearInterval(interval);
+    }, []);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCount((prevsCounter) => (prevsCounter < 1000 ? prevsCounter + 1 : prevsCounter));
         }, 50); // Adjust the interval as needed
 
         return () => clearInterval(interval);
@@ -45,7 +54,7 @@ const Customers = () => {
                 <div className="flex flex-col items-center  p-4 rounded">
                     <div className="w-[100px] h-[100px] bg-white rounded-full flex items-center justify-center">
                         <span className="text-black text-center font-serif
-                        font-semibold text-[20px]">{counter}+</span>
+                        font-semibold text-[20px]">{count}+</span>
                     </div>
                     <span className="text-white max-sm:text-[16px] text-center font-serif mt-2 text-lg pt-4">
                         We sale our products to more than 1000+ stores/shopping marts everyday. 
